@@ -9,7 +9,7 @@ type ColorMode = 'dark' | 'light';
 const isClient = () => typeof window !== 'undefined';
 
 const getMatchMedia = (): MediaQueryList | undefined => {
-  return typeof isClient() ? window.matchMedia && window.matchMedia(MEDIA_QUERY) : undefined;
+  return isClient() ? window.matchMedia && window.matchMedia(MEDIA_QUERY) : undefined;
 };
 
 const getColorMode = (matchQueryList: MediaQueryList | undefined): ColorMode => {
