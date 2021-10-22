@@ -31,18 +31,20 @@ of the system preference.
 
 ## Quick Start
 
-[Check out the example on **CodeSandbox**](https://codesandbox.io/s/react-hookmouse-position-example-udsxi?file=/src/App.js)
+[Check out the example on **CodeSandbox**](https://codesandbox.io/s/condescending-jennings-59h6r?file=/src/styles.css)
 
 ```jsx harmony
 import { useSystemColorMode } from 'react-use-system-color-mode'
 
-const Component = (props) => {
-  const colorMode = useSystemColorMode() // 'dark' or 'light'
-
+const Example = () => {
+  const colorMode = useColorMode();
+  
   return (
-
-  )
-}
+    <div>
+      <h2>Your color Mode is {colorMode}</h2>
+    </div>
+  );
+};
 ```
 
 ## API
