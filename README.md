@@ -37,7 +37,7 @@ of the system preference.
 import { useSystemColorMode } from 'react-use-system-color-mode'
 
 const Example = () => {
-  const colorMode = useColorMode();
+  const colorMode = useSystemColorMode();
   
   return (
     <div>
