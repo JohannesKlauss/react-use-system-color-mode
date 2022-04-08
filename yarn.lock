@@ -6539,10 +6539,10 @@ mkdirp@0.x, mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-mock-match-media@0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/mock-match-media/-/mock-match-media-0.1.4.tgz#da4202d3493332bdf28bc952ca4318d5c8d149bb"
-  integrity sha512-xb6x4O139ZSq2FvhmwX3APYJGg5ciNFX62ikFJtJ7tMSBL1j4zMbun+ZB7z31ePZKIjKRqrrLnIZ3xYRar1Epw==
+mock-match-media@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/mock-match-media/-/mock-match-media-0.3.0.tgz#1fff5e70edaa0a37e7f2b5f1e75fe77aec79a09e"
+  integrity sha512-fT0MDsCcTSITZMyz9w7kU/tFJ/Lmrcrr6EVHS9cfcog46202YKGlpmBAXKzr25XpqMfTyufZJHwMFp+B4IfknQ==
   dependencies:
     css-mediaquery "^0.1.2"
 
